@@ -1,0 +1,12 @@
+Source: ros-turbulent-pcl-conversions
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libpcl-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-message-filters, ros-turbulent-pcl-msgs, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/pcl_conversions
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-pcl-conversions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libpcl-dev, ros-turbulent-message-filters, ros-turbulent-pcl-msgs, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: Provides conversions from PCL data types and ROS message types
