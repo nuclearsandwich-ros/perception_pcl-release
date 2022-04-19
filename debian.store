@@ -1,1 +1,1 @@
-{"base": "320dd86", "parent": "debian/rolling/pcl_ros", "previous": "7b8e8dd", "trim": "", "trimbase": ""}
+{"base": "349f667", "parent": "debian/humble/pcl_ros", "previous": "ccb3ccd", "trim": "", "trimbase": ""}
